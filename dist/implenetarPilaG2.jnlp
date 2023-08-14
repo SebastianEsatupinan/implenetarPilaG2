@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="implenetarPilaG2.jnlp">
+  <information>
+    <title>implenetarPilaG2</title>
+    <vendor>sebastian.esatupinan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="implenetarPilaG2.jar" size="3478" download="eager" />
+    <jar href="lib\pilaG2.jar" size="5846" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="implenetarPilaG2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="implenetarpilag2.ImplenetarPilaG2"  name="implenetarPilaG2" />
+  <update check="always"/>
+</jnlp>

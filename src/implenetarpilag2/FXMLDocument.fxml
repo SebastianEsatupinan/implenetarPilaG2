@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="292.0" prefWidth="836.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="implenetarpilag2.FXMLDocumentController">
+    <children>
+        <Button fx:id="Button" layoutX="230.0" layoutY="231.0" onAction="#apilarProducto" text="Apilar" />
+        <Label fx:id="TituloL" layoutX="193.0" layoutY="34.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="168.0" text="Isertar Productos" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="NombreTF" layoutX="320.0" layoutY="85.0" />
+      <TextField fx:id="CodigoTF" layoutX="320.0" layoutY="135.0" />
+      <TextField fx:id="ValorTF" layoutX="320.0" layoutY="188.0" />
+      <Label fx:id="NombrePTXT" layoutX="83.0" layoutY="81.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="168.0" text="Nombre Producto" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="CodigoPTXT" layoutX="83.0" layoutY="131.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="168.0" text="Codigo Producto" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ValorPTXT" layoutX="83.0" layoutY="184.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="168.0" text="Valor Producto" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textAreaP" layoutX="515.0" layoutY="15.0" prefHeight="200.0" prefWidth="292.0" />
+      <Button layoutX="617.0" layoutY="231.0" mnemonicParsing="false" onAction="#MostrarDatosPila" text="MostrarDatos" />
+      <MenuBar fx:id="menuBar1" layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Desapilar Producto">
+            <items>
+              <MenuItem fx:id="DesapilarP" mnemonicParsing="false" onAction="#DesapilarP" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>
